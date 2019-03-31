@@ -1,0 +1,44 @@
+{
+  "name": "react-chrome-extension",
+  "version": "1.0.0",
+  "description": "a react chrome extension boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node scripts/dev",
+    "clean": "rimraf build/ dev/ *.zip *.crx"
+  },
+  "author": "yeguoliao@163.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "autoprefixer": "^9.5.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-import": "^1.11.0",
+    "css-loader": "^2.1.1",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "pug-cli": "^1.0.0-alpha6",
+    "rimraf": "^2.6.3",
+    "shelljs": "^0.8.3",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-hot-middleware": "^2.24.3",
+    "webpack-httpolyglot-server": "^0.3.0"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-decorators": "^7.3.0",
+    "antd": "^3.15.1",
+    "bluebird": "^3.5.3",
+    "classnames": "^2.2.6",
+    "mobx": "^5.9.0",
+    "mobx-react": "^5.4.3",
+    "moment": "^2.24.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "serializr": "^1.5.1",
+    "uuid": "^3.3.2"
+  }
+}

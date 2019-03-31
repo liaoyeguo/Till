@@ -1,0 +1,17 @@
+.header-bar {
+  min-height: 40px;
+  border-bottom: 1px solid #f1f1f1;
+  margin-top: 80px;
+}
+.header-bar .inner-bar {
+  margin: 0 10%;
+}
+
+.header-bar .inner-bar .ant-select-selection {
+  border-radius: 16px;
+  width: 128px;
+}
+
+.dropdown {
+  width: 100px;
+}

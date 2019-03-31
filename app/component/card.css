@@ -1,0 +1,102 @@
+.card {
+  background: white;
+  height: 200px;
+  width: 240px;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  margin: 16px 0;
+  transition: all ease 0.3s;
+  font-size: 14px;
+  position: relative;
+  /* border-top: 1px solid #f1f1f1; */
+}
+
+.card:hover {
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.05);
+}
+
+/* .card:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+} */
+.card.no-shadow-blur {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.card .header-title {
+  text-align: center;
+  padding-top: 24px;
+}
+
+.card .header-title span {
+  display: inline-block;
+  padding: 8px 0;
+  user-select: none;
+}
+.card .header-title .title {
+  user-select: text;
+  padding: 0 4px;
+  color: #333;
+}
+.card .data {
+  text-align: center;
+  padding-top: 16px;
+  user-select: none;
+}
+.card .data .ant-statistic-content-value {
+  font-size: 32px;
+}
+
+.card .data .main-digit {
+  font-size: 48px;
+  font-variant-numeric: tabular-nums;
+  user-select: none;
+}
+.card .data .unit {
+  user-select: none;
+}
+
+.card .date {
+  padding-top: 16px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.card .date span {
+  padding: 0 4;
+}
+
+.card .add-button {
+  text-align: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 64px;
+  color: #eee;
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+.card .add-button:hover {
+  color: #999;
+}
+
+.card .add-form {
+  width: 80%;
+  margin: auto;
+  padding-top: 12px;
+}
+.card .add-form .date-picker {
+  width: 100%;
+}
+.card .add-form .ant-form-item {
+  margin-bottom: 8px;
+  padding: 0;
+}
+.card .add-form .input {
+}
+
+.card .add-form .ant-form label {
+  font-size: 12px;
+}
+/* .card .add-form .data-picker input {
+  border: none;
+} */

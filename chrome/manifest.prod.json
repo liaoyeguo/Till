@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "name": "Sandglass!",
+  "manifest_version": 2,
+  "description": "Sandglass! is a simple Pomodoro timer",
+  "browser_action": {
+    "default_title": "click to focus",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "img/logo-16.png",
+    "48": "img/logo-48.png",
+    "128": "img/logo-128.png"
+  },
+  "background": {
+    "page": "background.html",
+    "persistent": false
+  },
+  "permissions": [
+    "contextMenus",
+    "management",
+    "tabs",
+    "storage",
+    "https://github.com/*",
+    "alarms",
+    "notifications"
+  ],
+  "content_security_policy": "default-src 'self'; script-src 'self'; style-src * 'unsafe-inline'; img-src 'self' data:;"
+}
