@@ -2,10 +2,8 @@
   "version": "1.0.0",
   "name": "Till",
   "manifest_version": 2,
-  "description": "Till is nothing",
-  "browser_action": {
-    "default_title": "title"
-  },
+  "description": "Till is a count down app",
+  "browser_action": {},
   "icons": {
     "16": "img/logo-16.png",
     "48": "img/logo-48.png",

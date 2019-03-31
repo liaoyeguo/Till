@@ -220,7 +220,7 @@ class EditEvent extends Component {
             </Row>
             <Row gutter={16}>
               <Col span={24}>
-                <Form.Item label="DateTime">
+                <Form.Item label="日期">
                   <DatePicker
                     showTime={{ defaultValue: moment("00:00:00", "HH:mm:ss") }}
                     disabledDate={this.disabledDate}
@@ -231,6 +231,7 @@ class EditEvent extends Component {
                       (curEditEvent && moment(curEditEvent.deadline)) ||
                       this.state.deadline
                     }
+                    placeholder="请选择日期"
                   />
                 </Form.Item>
               </Col>
